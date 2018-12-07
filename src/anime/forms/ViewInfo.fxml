@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView id="image" fitHeight="243.0" fitWidth="177.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ListView id="sources" layoutX="14.0" layoutY="272.0" prefHeight="196.0" prefWidth="450.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="272.0" />
+      <Label id="name" layoutX="205.0" layoutY="14.0" prefHeight="29.0" prefWidth="259.0" text="Name" AnchorPane.bottomAnchor="439.0" AnchorPane.leftAnchor="205.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <Label id="type" layoutX="205.0" layoutY="43.0" prefHeight="29.0" prefWidth="265.0" text="Type: N/A" AnchorPane.bottomAnchor="410.0" AnchorPane.leftAnchor="205.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="43.0" />
+      <Label id="episodes" layoutX="205.0" layoutY="72.0" prefHeight="29.0" prefWidth="265.0" text="Episodes: N/A" />
+      <Label id="synonyms" alignment="TOP_LEFT" layoutX="205.0" layoutY="110.0" prefHeight="150.0" prefWidth="265.0" text="Synonyms: N/A" />
+   </children>
+</AnchorPane>

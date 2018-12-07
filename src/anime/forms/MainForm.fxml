@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="btn_sync" layoutX="513.0" layoutY="14.0" mnemonicParsing="false" text="Sync BD" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <TableView id="table" layoutX="12.0" layoutY="48.0" prefHeight="384.0" prefWidth="631.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="51.0">
+      </TableView>
+      <TextField id="search_text" layoutX="14.0" layoutY="14.0" promptText="Search" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <Button id="search_btn" layoutX="195.0" layoutY="14.0" mnemonicParsing="false" text="Search" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+name: offline-anime-database-app
+version: 1.0.0
+description: Offline Anime DataBase Application
+deps:
+  jphp-core: '*'
+  jphp-zend-ext: '*'
+  jphp-gui-ext: '*'
+  jphp-gui-desktop-ext: '*'
+plugins:
+- App
+sources:
+- src
+includes:
+- index.php
