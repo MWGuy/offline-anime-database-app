@@ -5,7 +5,8 @@ deps:
   jphp-core: '*'
   jphp-zend-ext: '*'
   jphp-gui-ext: '*'
-  jphp-gui-desktop-ext: '*'
+  jphp-gui-jfx-linux: '*'
+  jphp-gui-jfx-win: '*'
 plugins:
 - App
 sources:
